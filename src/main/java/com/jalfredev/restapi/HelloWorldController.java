@@ -8,6 +8,6 @@ public class HelloWorldController {
   
   @GetMapping(path="/hello")    //Annotation for a Get request
   public String helloWorld() {
-    return "Hello World";
+    return "Hello World!!";
   }
 }
